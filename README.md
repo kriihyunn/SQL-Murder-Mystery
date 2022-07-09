@@ -13,7 +13,7 @@ Given 2 witnesses, I created queries to find information on both of them from th
 * Witness 2 was a woman named Annabel Miller with ID number 16371.
 
 ## Step 3 (Query 4)
-Following the previos queries, I was now able to pull up their specific interview transcripts from the database "interview" by joining the tables using their unique IDs. I was able to receive crucial information that would help me in identifying the culprit in the next step.
+Following the previous queries, I was now able to pull up their specific interview transcripts from the database "interview" by joining the tables using their unique IDs. I was able to receive crucial information that would help me in identifying the culprit in the next step.
 * Morty Schapiro: I heard a gunshot and then saw a man run out. He had a "Get Fit Now Gym" bag. The membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W".
 * Annabel Miller: I saw the murder happen, and I recognized the killer from my gym when I was working out last week on January the 9th.
 
