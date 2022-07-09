@@ -29,10 +29,10 @@ Now that I knew the potential culprit's name, it was time to search for informat
 Finally, I could figure out who the murderer was. I joined the "person" and "drivers_license" tables. Based on the license plate and name, the culprit was found to be Jeremy Bowers. A check with the query provided by the website confirmed that he was indeed the killer, but the resulting message was surprisingly...
 * Congrats, you found the murderer! But wait, there's more... If you think you're up for a challenge, try querying the interview transcript of the murderer to find the real villain behind this crime. If you feel especially confident in your SQL skills, try to complete this final step with no more than 2 queries. Use this same INSERT statement with your new suspect to check your answer.
 
-## Step 6.5 (Query 8)
+## Step 6.5 (Query 9)
 I realized after finishing the previous queries and finding the culprit that I could have completed the task by doing a double join between the "person", "drivers_license", and "get_fit_now_member" tables since they share primary and foreign keys. I thought it was interesting and wanted to include this query because it goes on to show that people can think about how to solve the task in different ways and still achieve the same results. The query can be viewed in my SQL script file. Using this query replaces queries 5-7.
 
-## Step 7 (Query 9, 10)
+## Step 7 (Query 10, 11)
 Confirming that the killer was Jeremy Bowers and given a post-end challenge, it was easy to pull up Jeremy Bower's interview transcript from the "interview" table since we knew his person_id from Step 4. His testimony confessed:
 * I was hired by a woman with a lot of money. I don't know her name but I know she's around 5'5" (65") or 5'7" (67"). She has red hair and she drives a Tesla Model S. I know that she attended the SQL Symphony Concert 3 times in December 2017.
 
