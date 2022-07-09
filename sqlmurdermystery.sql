@@ -72,9 +72,6 @@ WHERE d.plate_number LIKE '%H42W%'
 
 // Jeremy Bowers
 
-INSERT INTO solution VALUES (1, 'Jeremy Bowers');      
-	SELECT value FROM solution;
-
 SELECT transcript
 FROM interview
 WHERE person_id = 67318;
