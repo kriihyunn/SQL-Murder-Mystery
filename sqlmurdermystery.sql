@@ -1,16 +1,18 @@
 SELECT *
 FROM crime_scene_report
 WHERE city = 'SQL City' AND type = 'murder';
-// 2 witnesses: first lives at last house in Northwestern Dr
+/* 2 witnesses: first lives at last house in Northwestern Dr
 		second named Annabel living somewhere on Franklin Ave
+*/
 
 SELECT *
 FROM person
 WHERE address_street_name = 'Northwestern Dr'
 ORDER BY address_number DESC
 LIMIT 1;
-// id: 14887, name: Morty Schapiro, license_id: 118009, address_number: 4919
+/* id: 14887, name: Morty Schapiro, license_id: 118009, address_number: 4919
 	ssn: 111564949
+*/
 
 SELECT *
 FROM person
@@ -22,9 +24,10 @@ FROM person
 JOIN interview
 	ON person.id = interview.person_id
 WHERE person.id = 14887 OR person.id = 16371;
-// MS: guy, get fit now gym bag, gold membership id started with "48Z" 
+/* MS: guy, get fit now gym bag, gold membership id started with "48Z" 
 	got into car with plate including "H42W"
    AM: killer at gym on Jan 9
+*/
 
 SELECT c.membership_id, m.person_id, m.name, m.membership_status
 FROM get_fit_now_member AS m
